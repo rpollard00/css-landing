@@ -24,12 +24,19 @@ h1 {
     font-size: 100%;
 }
 
+h2 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: normal;
+    font-size: 100%;
+}
+
 button {
     border: 0px;
     background-color: #3882F6;
     padding: 8px 32px;
     border-radius: 8px;
-    color: #F9FAF8;
+    color: #E5E7EB;
     font-size: 18px;
     font-weight: 600;
 }
@@ -139,14 +146,65 @@ button {
     font-weight: 200;
     font-size: 36px;
     font-style: italic;
+    padding-block: 128px;
+    padding-inline: 224px;
 }
 
+.quote-author {
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: right;
+}
+
+
+.call-to-action {
+    padding-inline: 140px;
+    padding-block: 90px;
+    color: #E5E7EB;
+}
 
 .call-inner {
+    padding: 60px;
     background-color: #3882F6;
+    display: flex;
+    border-radius: 12px;
+    justify-content: space-between;
 }
 
+.call-right {
+    flex: 0 1 auto;
+    display: flex;
+    align-items: center;
+}
+
+.call-right>button {
+    display: flex;
+    align-items: center;
+    flex: 0 1 auto;
+    height: 36px;
+    border: 2px solid #E5E7EB;
+    font-size: 18px;
+    margin-right: 80px;
+}
+
+.call-left {
+    margin-left: 80px;
+}
+
+.call-left>h2 {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 32px;
     color: #E5E7EB;
     background-color: #1F2937;
 }
